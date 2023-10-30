@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabel 3x4</title>
+</head>
+<body>
+
+<table border="1">
+    <?php
+    // Loop untuk membuat 3 baris
+    for ($i = 1; $i <= 3; $i++) {
+        echo "<tr>";
+        
+        // Loop untuk membuat 4 kolom dalam setiap baris
+        for ($j = 1; $j <= 4; $j++) {
+            echo "<td>Baris $i Kolom $j</td>";
+        }
+        
+        echo "</tr>";
+    }
+    ?>
+</table>
+
+</body>
+</html>
